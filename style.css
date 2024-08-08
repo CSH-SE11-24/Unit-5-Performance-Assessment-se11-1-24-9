@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:  black!important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.train img{
+  width:110%;
+  height:100%
+}

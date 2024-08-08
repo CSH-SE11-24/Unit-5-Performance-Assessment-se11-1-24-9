@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--Link Bootstrap CSS  -->
+  <style>
+    h1{
+      text-align: center;
+    }
+    .container-fluid{
+      background-color: #FF7F27;;
+    } 
+    .nav-link{
+      color:black;
+    }
+    #hate{
+      width: 40%;
+    }
+    body{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: teal !important;
+    }
+    #spongebob{
+      background-image: url("bubbles.webp");
+    }
+    #citizens{
+      background-color: black;
+      color:white;
+    }
+    #surfing{
+      font-size: xx-large;
+      text-align: center;
+      background-color: black;
+      color: white;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      margin-left: 100px;
+      padding:10%;
+    }
+  </style>
+</head>
+<!--set a style tag in the head tag (nested)  -->
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand"><img src = "subway (1).png" id="hate"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">STATS & INFOGRAPHICS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">The Subways New Threatning Trend</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="solutions.html">SOLUTIONS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar accesible through each html page  -->
+  <h1>Subway Surfing</h1>
+  <!--header tag  -->
+  <div class="container">
+    <div class = "row">
+      
+  <button id = "spongebob" class="col-6">Breaking News :Bikini Bottom</button>
+  <button id = "citizens"  class = "col-6"> Breaking News : Citizens App</button>
+    </div>
+  </div>
+  <!-- two  buttons in a container and a row that has a col of 6   -->
+  
+  <div class="alert alert-warning alert-dismissible fade show" role="alert" style="background-color: black;">
+    <strong>Below are two buttons of Breaking News from Different Sources!</strong> Click On the Source You Want to Learn more about the dangers of Subway Surfing
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!-- alert that fades when you exit out of it telling users that they can choose from the two buttons to learn more about subway surfing  -->
+  
+  <div class = "row">
+  <p id = "surfing" class = "col-6">
+    "The deadly social media trend of 'subway surfing' teenagers Standing On Top of subway trains as conductor is on commute"
+  </p>
+     </div>
+  <!-- p tag with attributes in a row  -->
+  
+  <div class = "row" id = "surfers">
+    <img src  = "subwaysurfers (1).webp" class = "col-6" id = "surfers">
+    </div>
+   
+  <!-- img tag in a row with class and id attributes  -->
+  
+  
+  <script src = "js/research.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Link research.html to research.js  -->
+  </body>
+  </html>
